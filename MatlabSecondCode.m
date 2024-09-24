@@ -4,7 +4,7 @@ Rahydro = readtable("Ra_hydro.csv");
 
 %% create plot
 figure; hold on;
-errorbar(Rahydro.Distance,Rahydro.Ra_He,Rahydro.Ra_HeError,'o','Color','k');
+errorbar(Rahydro.Distance,Rahydro.Ra_He,Rahydro.Ra_HeError,'o','Color','r');
 scatter(Rahydro.Distance,Rahydro.Ra_He,100,'o','filled');
 
 %% calcuate fit
